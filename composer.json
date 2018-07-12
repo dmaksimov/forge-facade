@@ -1,14 +1,15 @@
 {
     "name": "davidmaksimov/forge-facade",
-    "require": {
-        "themsaid/forge-sdk": "^1.2"
-    },
+    "keywords": ["laravel", "forge"],
     "authors": [
         {
             "name": "David Maksimov",
             "email": "dmaksi@gmail.com"
         }
     ],
+    "require": {
+        "themsaid/forge-sdk": "^1.2"
+    },
     "autoload": {
         "psr-4": {
             "Davidmaksimov\\ForgeFacade\\": "src/"

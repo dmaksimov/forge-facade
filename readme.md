@@ -52,9 +52,9 @@ The following is taken from the readme at `themsaid/forge-sdk`. The SDK is compl
 ### Managing Servers
 
 ```php
-$forge->servers();
+Forge::servers();
 Forge::server();
-$forge->createServer(array $data);
+Forge::createServer(array $data);
 Forge::updateServer(array $data);
 Forge::deleteServer();
 Forge::rebootServer();
@@ -315,12 +315,12 @@ $databaseUser->delete();
 ### Managing Recipes
 
 ```php
-$forge->recipes();
-$forge->recipe($recipeId);
-$forge->createRecipe(array $data);
-$forge->updateRecipe($recipeId, array $data);
-$forge->deleteRecipe($recipeId);
-$forge->runRecipe($recipeId, array $data);
+Forge::recipes();
+Forge::recipe($recipeId);
+Forge::createRecipe(array $data);
+Forge::updateRecipe($recipeId, array $data);
+Forge::deleteRecipe($recipeId);
+Forge::runRecipe($recipeId, array $data);
 ```
 
 On a Recipe Instance you may also call:

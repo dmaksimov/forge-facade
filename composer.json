@@ -2,6 +2,7 @@
     "name": "davidmaksimov/forge-facade",
     "description": "A Laravel facade wrapper for Laravel Forge SDK (themsaid/forge-sdk)",
     "keywords": ["laravel", "forge"],
+    "license": "MIT",
     "authors": [
         {
             "name": "David Maksimov",

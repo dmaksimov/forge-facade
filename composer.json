@@ -9,6 +9,11 @@
             "email": "dmaksi@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Davidmaksimov\\ForgeFacade\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [

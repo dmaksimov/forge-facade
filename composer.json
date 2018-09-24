@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Davidmaksimov\\ForgeFacade\\ForgeServiceProvider"
+                "Davidmaksimov\\ForgeFacade\\ServiceProvider"
             ],
             "aliases": {
                 "Forge": "Davidmaksimov\\ForgeFacade\\Facade"

@@ -2,9 +2,7 @@
 
 namespace Davidmaksimov\ForgeFacade;
 
-use Illuminate\Support\ServiceProvider;
-
-class ForgeServiceProvider extends ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     public function register()
     {
